@@ -990,10 +990,13 @@ footer a:hover {
         height: 1rem;
     }
 
-    .carousel-item .col-md-6:last-child {
-        display: none;
+  .carousel-item .col-md-6:last-child {
+        display: none !important;
     }
-
+.carousel-control-prev,
+.carousel-control-next {
+    z-index: 10;
+}
     .testimonial-card {
         padding-right: 0;
         text-align: center;
