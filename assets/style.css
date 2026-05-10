@@ -979,10 +979,10 @@ footer a:hover {
         width: 100%;
     }
 
-    .carousel-item .row {
+    /* .carousel-item .row {
         flex-wrap: nowrap;
         overflow: hidden;
-    }
+    } */
 
     .carousel-control-next-icon,
     .carousel-control-prev-icon {
